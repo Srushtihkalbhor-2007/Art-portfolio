@@ -14,13 +14,22 @@ ul{
     letter-spacing: 1.5px;
     gap: 60px;
     padding: 0px 0px 0px 0px;
+    
 }
 
-ul li a{
-    text-decoration: none;
-    color:342F2E;
+.navbar a:hover{
+   text-decoration: none;
+   color: #342F2E ;
+
+   opacity: 0.6;
+   transition: 0.3s;
 }
+ul li a {
+   text-decoration: none;
+   color: #342F2E ;
+}
+
 hr {
-    border-width: 1.8px;
-    border-color: 342F2E;
+    border-width: 1.1px;
+    border-color: #342F2E;
 }
